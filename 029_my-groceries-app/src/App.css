@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  width: 100vw;
+}
+.App button {
+  height: 36px;
+  margin: 0;
+}
+
+.App-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.App-GroceryList {
+  width: 50vw;
+}
+.App-GroceryList ul li:nth-child(even) {
+  background-color: #f76696;
+}
+.App-GroceryList ul li:nth-child(odd) {
+  background-color: #f66161;
+}
+
+.App-InputField input[type=text] {
+  height: 30px;
+}
+
+.App-ShoppingCart {
+  width: 50vw;
+}
+.App-ShoppingCart ul li:nth-child(even) {
+  background-color: #66a5f7;
+}
+.App-ShoppingCart ul li:nth-child(odd) {
+  background-color: #6361f6;
+}
+
+.App-List ul {
+  list-style: none;
+  padding: 0px 20px 0px 20px;
+}
+.App-List ul li {
+  margin-bottom: 2px;
+  padding: 5px 10px;
+  text-align: left;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}/*# sourceMappingURL=App.css.map */
